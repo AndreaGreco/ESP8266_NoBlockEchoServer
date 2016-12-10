@@ -15,9 +15,6 @@
 #include "lwip/opt.h"
 #include "reciver.h"
 
-#define TIMEOUT_SELECT 15 // ms
-
-#define PORT 1233
 
 void Task_ServerTCP(void *pvParameters) {
   struct netconn *conn, *newconn;

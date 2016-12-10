@@ -1,9 +1,8 @@
 #ifndef RECIVER_H
 #define RECIVER_H
 
-
-#define SERVER_PORT 1422
-
+#define TIMEOUT_SELECT 15 // ms
+#define PORT 1255
 
 void Task_ServerTCP(void *pvParameters);
 

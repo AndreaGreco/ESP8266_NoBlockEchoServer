@@ -28,5 +28,5 @@ void user_init(void) {
   sdk_wifi_set_opmode(STATION_MODE);
   sdk_wifi_station_set_config(&config);
 
-  xTaskCreate(&Task_ServerTCP, "SNTP", 256, NULL, 2, NULL);
+  xTaskCreate(&Task_ServerTCP, "Echo_Server", 256, NULL, s 2, NULL);
 }
